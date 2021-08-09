@@ -1,0 +1,231 @@
+*{
+	margin: 0px;
+	padding: 0px;
+}
+body{
+
+	background-size: 100%;
+}
+header{
+
+	width: 99%;
+	height: 200px;
+	background: #043D8E;
+	margin: 10px;
+}
+header h1{
+	font-size: 70px;
+	color: #AFB4BC;
+	text-align: right;
+}
+
+#menu{
+	height: 70px;
+	display: flex;
+	background: #63C0CB; opacity: 0.5;
+}
+a{
+	text-decoration: none;
+	font-family: monospace;
+	font-size: 20px;
+	color: #000000;
+	margin-right: 180px;
+	margin-left: 100px;
+}
+#section1{
+	font-family: monospace;
+	height: 400px;
+	background: #9FD8DF;
+
+}
+#front{
+	font-family: fantasy;
+	font-size: 50px;
+	text-align: center;
+	color: red;
+	margin-top: 10px; 
+}
+#section2{
+	font-family: monospace;
+	height: 400px;
+	background: #63C0CB;
+}
+#subtemas2{
+	font-family: monospace;
+	font-size: 20px;
+	margin: 10px;
+	padding: 10px;
+}
+
+#back {
+	font-family: fantasy;
+	font-size: 50px;
+	text-align: center;
+	color: red;
+	margin-top: 10px;
+}
+#clienteimagen{
+	width: 40%;
+	height: 10%;
+	margin-left: 90px;
+}
+#servidorimagen{
+	width: 60%;
+	height: 60%;
+	margin-left: 53px;
+}
+#lenguajesimagen{
+	align-content: left;
+	margin-left: 400px;
+}
+#lenguajesimagen2{
+	margin-left: 240px;
+}
+#section3{
+	font-family: monospace;
+	height: 480px;
+	background: #5298A0;
+}
+
+#api {
+	font-family: fantasy;
+	font-size: 50px;
+	text-align: center;
+	color: red;
+	margin-top: 10px; 
+}
+#api h2{
+	font-size: 30px;
+}
+
+#imagenfuncionapi{
+	margin-left: 300px;
+	margin-right: 150px;
+}
+
+#section4{
+	font-family: monospace;
+	height: 600px;
+	background: #45848C;
+}
+#base{
+	font-family: fantasy;
+	font-size: 50px;
+	text-align: center;
+	color: red;
+	margin-top: 10px; 
+}
+#tipos{
+	display: block;
+}
+#tipos h1{
+	margin-left: 400px;
+}
+#tipos2{
+	display: flex;
+}
+#subparrafo{
+	padding: 10px;
+}
+#titulonosql{
+	background: #4D72A4;
+	color: white;
+}
+#sql{
+	background: #9FD8DF;
+	border: 10px;
+}
+#nosql{
+	background: #9FD8DF;
+}
+#titulosql{
+	background: #4D72A4;
+	color: white;
+}
+#sqlnosqlimagen{
+	margin-left: 440px;
+}
+#sqlnosqlimagen img{
+	width: 30%;
+}
+footer{
+	height: 40px;
+	background: #AFB4BC;
+	display: flex;
+	margin-top: 5px;
+	margin-bottom: 10px;
+	padding-top: 10px;
+}
+footer h2{
+	font-size: 20px;
+	padding: 10px;
+	margin-left: 800px;
+}
+
+@media (max-width: 840px){
+	header{
+	width: 463px;
+	height: 173px;
+	}
+	#menu{
+	height: 78px;
+	display: flex;
+	background: #EFE6F9; opacity: 0.5;
+	}
+	a{
+	color: #18A5BB;
+	margin-right: 20px;
+	margin-left: 20px;
+	}
+	#lenguajesimagen{
+	margin-left: 20px;
+	}
+	#lenguajesimagen img{
+	width: 95%;
+	}
+	#lenguajesimagen2{
+	margin-left: 10px;
+	}
+	#lenguajesimagen2 img{
+	width: 450px;
+	}
+	#imagenfuncionapi{
+	margin-left: 60px;
+	}
+	#imagenfuncionapi img{
+	width: 120%;
+	}
+	#tipos2{
+	display: block;
+	}
+	#titulosql h1{
+	margin-left: 210px;
+	}
+	#titulonosql h1{
+	margin-left: 200px;
+	}
+	#sqlnosqlimagen{
+	margin-left: 15px;
+	}
+	#sqlnosqlimagen img{
+	width: 100%;
+	}
+	footer{
+	height: 50px;
+	}
+	footer h2{
+	font-size: 15px;
+	font-style: italic;
+	margin-left: 20px;
+	}
+	#final{
+	display: flex;
+	}
+	#redes{
+	margin-left: 50px;
+	}
+	#final img{
+	width: 30%;
+	height: 30px;
+	}
+}
